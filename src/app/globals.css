@@ -3,6 +3,14 @@
 
 @custom-variant dark (&:is(.dark *));
 
+/* globals.css */
+@layer base {
+  .font-barlow {
+    font-family: "Barlow", sans-serif;
+  }
+}
+
+
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
